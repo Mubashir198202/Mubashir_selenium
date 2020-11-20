@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login with data table",
+        "description": "",
+        "id": "login-function-validations;login-with-data-table;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6013640300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a user i can open any browser",
+            "match": {
+              "location": "OutLineTestStepDef.as_a_user_i_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1928617900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user i can enter the \"https://admin-demo.nopcommerce.com/\" and go to the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 27
+                }
+              ],
+              "location": "OutLineTestStepDef.as_a_user_i_can_enter_the_and_go_to_the_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255941300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user i can enter as \"admin@yourstore.com\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 26
+                },
+                {
+                  "val": "admin",
+                  "offset": 61
+                }
+              ],
+              "location": "OutLineTestStepDef.as_a_user_i_can_enter_as_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2361326400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login",
+            "match": {
+              "location": "OutLineTestStepDef.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174713800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Homepage title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 26
+                }
+              ],
+              "location": "OutLineTestStepDef.homepage_title_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288637900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user i can click on logout link",
+            "match": {
+              "location": "OutLineTestStepDef.as_a_user_i_can_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8505100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Loginpage title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 27
+                }
+              ],
+              "location": "OutLineTestStepDef.loginpage_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1137187800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "OutLineTestStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login with data table",
+        "description": "",
+        "id": "login-function-validations;login-with-data-table;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5318776400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a user i can open any browser",
+            "match": {
+              "location": "OutLineTestStepDef.as_a_user_i_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1868075000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user i can enter the \"https://admin-demo.nopcommerce.com/\" and go to the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 27
+                }
+              ],
+              "location": "OutLineTestStepDef.as_a_user_i_can_enter_the_and_go_to_the_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222874200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user i can enter as \"admin@yourstore.com\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 26
+                },
+                {
+                  "val": "admin",
+                  "offset": 61
+                }
+              ],
+              "location": "OutLineTestStepDef.as_a_user_i_can_enter_as_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2472917900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login",
+            "match": {
+              "location": "OutLineTestStepDef.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106511800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Homepage title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 26
+                }
+              ],
+              "location": "OutLineTestStepDef.homepage_title_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1423427700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user i can click on logout link",
+            "match": {
+              "location": "OutLineTestStepDef.as_a_user_i_can_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10260700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Loginpage title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 27
+                }
+              ],
+              "location": "OutLineTestStepDef.loginpage_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110007900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "OutLineTestStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login function validations",
+    "description": "",
+    "id": "login-function-validations",
+    "keyword": "Feature",
+    "uri": "Scenariooutline.feature"
+  }
+]
